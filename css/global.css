@@ -1,0 +1,96 @@
+body{
+	padding:0px;
+	margin:0px;
+	background-color:rgb(230, 230, 230);
+	font-family:"Microsoft YaHei";
+}
+ul{
+			list-style:none;
+		}
+.line{
+	margin:auto;
+	width:450px;
+	border:1px black solid;
+}
+		
+#navmenu{
+	width:920px;
+	margin:auto;
+	background-color:rgba(0,0,0,0.3);
+}
+
+#navmenu>li{
+	height:45px;
+	padding-top:15px;
+	text-align:center;
+	width:130px;
+	float:left;
+	z-index:10000;
+	border-bottom:rgba(0,0,0,0.0) 2px solid;
+}
+
+
+
+#navmenu>li:hover{
+	transition:0.1s;
+	border-bottom:rgba(0,0,0,0.3) 2px solid;
+}
+
+
+#cssmenu{
+	text-align:center;
+	height:52px;
+	margin:auto;
+	padding-bottom:10px;
+	margin-top:0px;
+	position:relative;
+	width:100%;
+}
+
+#cssmenu a{
+	font-family:"Microsoft YaHei";
+	font-size:0.8em;
+	color:rgba(0,0,0,0.7);
+	text-transform:none;
+	text-decoration:none;
+}
+#menu-button{
+	display:none;
+}
+
+#sub-menu{
+	margin-top:23px;
+	margin-left:-40px;
+}
+
+#sub-menu>li{
+	padding-top:12px;
+	width:130px;
+	height:30px;
+	border-bottom:rgba(0,0,0,0.3) 1px solid;
+}
+
+#sub-menu2{
+	margin-top:23px;
+	margin-left:-40px;
+}
+
+#sub-menu2>li{
+	padding-top:12px;
+	width:130px;
+	height:30px;
+	border-bottom:rgba(0,0,0,0.3) 1px solid;
+}
+
+#sub-menu>li:hover{
+	background-color:rgba(255,255,255,0.5);
+}
+
+#sub-menu2>li:hover{
+	background-color:rgba(255,255,255,0.5);
+}
+
+@media only screen and (max-width: 1077px){
+
+	
+}

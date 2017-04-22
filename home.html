@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Devisign | 视计</title>
+		<link href="css/global.css" rel="stylesheet" type="text/css" media="all" />
+		<link rel="icon" href="img/logo.ico"/>
+		<style>
+			#cont1{
+				background-image:url("img/background1.jpg");
+				height:980px;
+				background-size:1920px 980px;
+				margin:auto;
+				margin-top:-70px;
+				background-repeat:no-repeat;
+			}
+			#cont2{
+				text-align:center;
+				height:980px;
+			}
+			#cont2>p{
+				font-size:2em;
+			}
+			#cont3{
+				text-align:center;
+				height:980px;
+			}
+			#cont3>p{
+				font-size:2em;
+			}
+			#top_logo{
+				width:150px;
+				margin-top:-20px;
+				float:left;
+				display:none;
+			}
+		</style>
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/global.js"></script>
+	<head>
+	<body onscroll=menuscroll()>
+		<div id='cssmenu'>
+			<ul id='navmenu'>
+			   <li  id='menu-button'><a href='#' style='display:none;position:absolute;margin-left:-60px;'> Menu</li>
+			   <li class='first-li'><a href='#cont1'>Home</li>
+			   <li><a href='#cont2'>About Us</a></li>
+			    <li id='has-sub2'><a href='#cont3'>Services</a>
+				<ul id='sub-menu2' style='display:none;'>
+					 <li><a href='#'>Logo Design</a></li>
+					 <li><a href='#'>Print Design</a></li>
+					 <li><a href='#'>Web Design</a></li>
+					 <li><a href='#'>Others</a></li>
+				  </ul>
+				</li>
+			   <li><a href='#'>Quote</a></li>
+			   <li><a href='https://www.devisign.com/weditor/index.html'>WEditor</li>
+			   <li><a href='https://devisign.com/noticeboard/index.html'>NoticeBoard</a></li>
+			</ul>
+		</div>
+		<div href="cont1" id='cont1'>
+			<img src='img/background1-font.png' style='width:40%;margin-left:30%;margin-top:170px;'>
+		</div><br>
+		<div href="cont2" id='cont2'>
+			<br><br><br>
+			<div class='line' style='width:400px;'></div>
+			<p style='margin-top:15px;margin-bottom:15px;'>Visual  •  Design</p>
+			<div class='line'></div>
+			<div style='height:5px;'></div>
+		</div><br>
+		<div href="cont3" id='cont3'>
+			<br><br><br>
+			<div class='line' style='width:400px;'></div>
+			<p style='margin-top:15px;margin-bottom:15px;'>Design  |  Logo</p>
+			<div class='line'></div>
+			<div style='height:5px;'></div>
+		</div>
+	</body>
+</html>
